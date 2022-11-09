@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }        
+
+        body {
+            background-image: url("https://www.10wallpaper.com/wallpaper/2880x1800/1808/Australian_Sydney_Opera_House_Night_Moon_Lighting_2880x1800.jpg");
+            background-position: center;
+
+            color: white;
+        }
+
+        .time {
+            font-size: 100px;
+            font-weight: bold;
+
+        }
+
+        .greeting {
+            font-size: 80px;
+        }
+
+        .todo{
+            font-size: 60px;
+        }
+
+        .author {
+            font-size: 30px;
+            font-style: italic;
+        }
+ 
+
+        .content {
+            font-size: 30px;
+            font-style: italic;
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+        
+
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">12:00</div>
+        <div class="greeting">Hello:)</div>
+        <div class="todo"> Don't worry, Be happy </div>
+    </div>
+    <div class="quote">
+        <div id="author" class="author">- In kkoyen's diary -</div>
+        <div id="content" class="content">" If you need to play it safe, Don't expect to leave your name in the history books. "</div>
+    </div>
+</body>
+
+</html>
